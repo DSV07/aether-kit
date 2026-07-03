@@ -1,0 +1,31 @@
+preferences:
+  - id: "pref_000001"
+    category: "general"
+    scope: "global"
+    rule: "Entregar respostas claras, objetivas e detalhadas."
+    source: "preferência do usuário"
+    confidence: 0.98
+    status: "active"
+    created_at: "2026-07-01T15:30:00-03:00"
+    updated_at: "2026-07-01T15:30:00-03:00"
+    tags:
+      - communication
+      - style
+    applies_to:
+      - "all"
+
+  - id: "pref_000002"
+    category: "general"
+    scope: "global"
+    rule: "Responder no idioma do usuário (português brasileiro)."
+    source: "preferência do usuário"
+    confidence: 0.99
+    status: "active"
+    created_at: "2026-07-01T15:30:00-03:00"
+    updated_at: "2026-07-01T15:30:00-03:00"
+    tags:
+      - communication
+      - language
+      - pt-br
+    applies_to:
+      - "all"

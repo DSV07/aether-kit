@@ -1,0 +1,1 @@
+{"version":3,"file":"conflictDetector.d.ts","sourceRoot":"","sources":["../../src/services/conflictDetector.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,cAAc,EAAiB,MAAM,sBAAsB,CAAC;AAG1E,wBAAgB,eAAe,CAC7B,OAAO,EAAE,MAAM,EACf,QAAQ,CAAC,EAAE,MAAM,EACjB,KAAK,CAAC,EAAE,MAAM,GACb,cAAc,CAkChB"}

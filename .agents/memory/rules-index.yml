@@ -1,0 +1,52 @@
+rules_index:
+  version: "1.0.0"
+  last_updated: "2026-07-01T15:30:00-03:00"
+  total_rules: 8
+  categories:
+    - general
+    - architecture
+    - design
+    - frontend
+  tags:
+    - communication
+    - style
+    - language
+    - pt-br
+    - react
+    - vite
+    - typescript
+    - node
+    - express
+    - mysql
+    - backend
+    - architecture
+    - separation-of-concerns
+    - project-setup
+    - documentation
+    - security
+    - ui
+    - ux
+    - no-ai-look
+    - design-system
+    - typography
+    - spacing
+    - modal
+  files:
+    - path: "preferences.yml"
+      key: "preferences"
+      count: 2
+    - path: "corrections.yml"
+      key: "corrections"
+      count: 0
+    - path: "stacks.yml"
+      key: "stacks"
+      count: 3
+    - path: "design-patterns.yml"
+      key: "design_patterns"
+      count: 3
+    - path: "project-rules.yml"
+      key: "project_rules"
+      count: 0
+    - path: "workflows.yml"
+      key: "workflows"
+      count: 0

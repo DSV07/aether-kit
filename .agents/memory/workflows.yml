@@ -1,0 +1,35 @@
+workflows:
+  - id: wf_000001
+    category: workflow
+    scope: global
+    rule: >-
+      Sempre fazer commit e push para o GitHub usando o idioma português (pt-BR) e seguir o padrão de boas práticas
+      Conventional Commits (ex: feat:, fix:, etc.).
+    source: instrução do usuário
+    confidence: 0.8
+    status: active
+    created_at: "2026-07-01T19:14:31.249Z"
+    updated_at: "2026-07-01T19:14:31.249Z"
+    tags:
+      - git
+      - commits
+      - conventions
+    applies_to:
+      - all
+  - id: wf_000002
+    category: workflow
+    scope: global
+    rule: >-
+      Sempre usar o MCP Server (save_learning) para salvar as preferências e configurações de aprendizado na memória, em
+      vez de modificar os arquivos da memória manualmente.
+    source: instrução do usuário
+    confidence: 1
+    status: active
+    created_at: "2026-07-03T13:12:53.174Z"
+    updated_at: "2026-07-03T13:12:53.174Z"
+    tags:
+      - memory
+      - mcp
+      - workflow
+    applies_to:
+      - all

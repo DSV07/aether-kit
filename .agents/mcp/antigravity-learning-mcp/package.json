@@ -1,0 +1,21 @@
+{
+  "name": "antigravity-learning-mcp",
+  "version": "1.0.0",
+  "description": "Adaptive Learning Layer MCP Server for AG-KIT 2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}

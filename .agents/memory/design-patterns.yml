@@ -1,0 +1,16 @@
+design_patterns:
+  - id: design_000001
+    category: design
+    scope: global
+    rule: Aplicar a classe 'rounded-xl' em todos os botões para garantir bordas arredondadas.
+    source: instrução do usuário
+    confidence: 0.8
+    status: active
+    created_at: "2026-07-01T19:14:31.149Z"
+    updated_at: "2026-07-01T19:14:31.149Z"
+    tags:
+      - ui
+      - buttons
+      - tailwind
+    applies_to:
+      - all

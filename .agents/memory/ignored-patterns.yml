@@ -1,0 +1,10 @@
+ignored_patterns:
+  - "pedidos pontuais de cor"
+  - "alterações específicas de texto"
+  - "comentários momentâneos"
+  - "instruções temporárias"
+  - "escolhas válidas para uma única tela"
+  - "preferências ambíguas sem contexto"
+  - "comentários emocionais momentâneos"
+  - "dados sensíveis sem confirmação clara"
+  - "correções que só valem para aquele contexto"

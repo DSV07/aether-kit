@@ -1,0 +1,59 @@
+stacks:
+  - id: "stack_000001"
+    category: "architecture"
+    scope: "global"
+    rule: "Para sistemas web, preferir React + Vite + TypeScript no frontend, Node.js + Express no backend e MySQL no banco de dados."
+    source: "padrão técnico do usuário"
+    confidence: 0.95
+    status: "active"
+    created_at: "2026-07-01T15:30:00-03:00"
+    updated_at: "2026-07-01T15:30:00-03:00"
+    tags:
+      - react
+      - vite
+      - typescript
+      - node
+      - express
+      - mysql
+    applies_to:
+      - "web-system"
+      - "saas"
+      - "dashboard"
+      - "erp"
+
+  - id: "stack_000002"
+    category: "architecture"
+    scope: "global"
+    rule: "Separar backend em controllers, services, routes e middlewares."
+    source: "padrão técnico do usuário"
+    confidence: 0.93
+    status: "active"
+    created_at: "2026-07-01T15:30:00-03:00"
+    updated_at: "2026-07-01T15:30:00-03:00"
+    tags:
+      - backend
+      - architecture
+      - separation-of-concerns
+    applies_to:
+      - "web-system"
+      - "api"
+      - "saas"
+
+  - id: "stack_000003"
+    category: "architecture"
+    scope: "global"
+    rule: "Criar .env.example, README técnico, tratamento de erros e validação de entrada em todo projeto."
+    source: "padrão técnico do usuário"
+    confidence: 0.92
+    status: "active"
+    created_at: "2026-07-01T15:30:00-03:00"
+    updated_at: "2026-07-01T15:30:00-03:00"
+    tags:
+      - project-setup
+      - documentation
+      - security
+    applies_to:
+      - "web-system"
+      - "api"
+      - "saas"
+      - "erp"
