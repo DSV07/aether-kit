@@ -1,13 +1,10 @@
-// setup mcp server in  ~/.gemini\ag-kit\mcp_config.json
+// Copie este conteúdo para as configurações globais da sua IDE (ex: ~/.gemini/antigravity-ide/mcp_config.json)
 {
     "mcpServers": {
-        "context7": {
-            "command": "npx",
+        "antigravity-learning-mcp": {
+            "command": "node",
             "args": [
-                "-y",
-                "@upstash/context7-mcp",
-                "--api-key",
-                "YOUR_API_KEY"
+                "C:\\COLOQUE_O_CAMINHO_ABSOLUTO_DO_SEU_PROJETO_AQUI\\.agents\\mcp\\antigravity-learning-mcp\\dist\\index.js"
             ]
         }
     }
