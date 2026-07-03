@@ -37,5 +37,6 @@ Before performing ANY `commit` and `push` operations, you MUST perform a proacti
 1. **Scan**: Look for exposed secrets, API keys, SQL injections, and other OWASP vulnerabilities.
 2. **Halt & Warn**: If vulnerabilities are found, DO NOT commit. Generate a `security-audit.md` artifact detailing the risks.
 3. **Wait for Approval**: Only proceed with the commit if the user explicitly approves and asks to ignore the warnings.
+4. **Announce Safety**: If NO vulnerabilities are found, you MUST explicitly announce `🛡️ Security Gatekeeper: Nenhuma vulnerabilidade detectada` (or similar) to the user BEFORE proceeding with the commit, ensuring transparency.
 
 ---
