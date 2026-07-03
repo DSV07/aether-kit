@@ -14,13 +14,22 @@ Você pode instalar o Aether Kit globalmente na sua máquina via NPM:
 npm install -g @dsv77/aether-kit
 ```
 
-## Configuração do MCP (Model Context Protocol)
+## Configuração e Instalação do MCP (Model Context Protocol)
 
-O Aether Kit vem preparado para integrar ferramentas avançadas através de servidores MCP (ex: `antigravity-learning-mcp`). Para configurar:
+O Aether Kit vem preparado para integrar ferramentas avançadas através de servidores MCP locais (ex: `antigravity-learning-mcp`). Para instalá-los e configurá-los corretamente:
 
-1. Acesse o diretório base das suas configurações na IDE Antigravity (geralmente `~/.gemini/antigravity-ide/mcp/`).
-2. Utilize o arquivo `.agents/mcp_config.json` gerado pelo kit como base para registrar novos servidores.
-3. Se houver servidores locais na pasta `.agents/mcp/` do projeto, lembre-se de rodar `npm install` dentro das respectivas pastas para instalar as dependências.
+1. **Instalação das dependências do MCP**:
+   Acesse a pasta de servidores MCP embutida no Aether Kit e instale as dependências:
+   ```bash
+   cd .agents/mcp/antigravity-learning-mcp
+   npm install
+   ```
+
+2. **Ativando o MCP na sua IDE**:
+   Acesse o diretório base das suas configurações globais na IDE Antigravity (geralmente em `~/.gemini/antigravity-ide/mcp/`).
+   
+3. **Registro do Servidor**:
+   Utilize o arquivo `.agents/mcp_config.json` gerado pelo kit como base. Copie os registros que estão nele e cole no arquivo `mcp_config.json` global da sua IDE para habilitar os servidores definitivamente para o contexto do agente.
 
 ## Como Usar
 
