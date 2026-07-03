@@ -1,6 +1,6 @@
 {
   "name": "@dsv77/aether-kit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Aether Kit - Agentes, regras e memórias para a IDE Antigravity",
   "main": "bin/index.js",
   "bin": {
